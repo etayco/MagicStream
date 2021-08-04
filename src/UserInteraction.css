@@ -1,0 +1,62 @@
+.user-interaction-container {
+  border-radius: 10px;
+  background-color: rgba(199, 199, 199, 0.26);
+  width: 887.5px;
+  height: 210px;
+}
+
+.user-interaction-title {
+  padding-top: 20px;
+  width: 100%;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+
+  font-weight: 600;
+}
+
+.container {
+  margin-top: 1%;
+  height: 100px;
+  width: 60%;
+  background: rgb(236, 251, 255);
+  left: 50%;
+  transform: translate(-50%, 0);
+  border-radius: 10px;
+  overflow: hidden;
+  display: grid;
+  position: relative;
+}
+
+.container > div {
+  text-align: center;
+}
+
+.container > div:hover {
+  cursor: pointer;
+}
+
+.left {
+  background: rgb(192, 102, 177);
+}
+
+.right {
+  background: rgb(97, 165, 255);
+}
+
+.text {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  user-select: none;
+}
+
+.option-title {
+  color: rgba(255, 255, 255, 1);
+}
+
+.option-size {
+  color: rgba(255, 255, 255, 1);
+  font-size: 20px;
+}
